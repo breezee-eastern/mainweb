@@ -1,0 +1,5 @@
+python-telegram-bot
+flask
+requests
+gunicorn
+Flask-SSLify
