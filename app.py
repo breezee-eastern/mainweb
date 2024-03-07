@@ -89,8 +89,8 @@ if __name__ == "__main__":
             return self.application
 
     options = {
-        'bind': '0.0.0.0:8000',  # Adjust the port as needed
-        'workers': 2,  # You can adjust the number of workers based on your server's resources
+        'bind': '0.0.0.0:5000',  # Adjust the port as needed
+        'workers': 12,  # You can adjust the number of workers based on your server's resources
     }
 
     flask_app = FlaskApp(app, options)
